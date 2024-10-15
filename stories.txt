@@ -1,0 +1,10 @@
+Review past 2 activities
+
+Req 1: users are uniquely identified by login names
+Req 2: client-side is multithreaded
+Req 3: client side must have GUI
+Req 4: server sends messages to all clients using multicast group address
+Req 5: server receives messages from clients through unicase UDP socket bound to known port
+Req 6: clients send messages to server using unicast
+Req 7: clients receive messages from server through multicast group address used by server
+Req 8: messages sent by users are forwarded to all registered users (no private msging)
